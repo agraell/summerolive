@@ -1,11 +1,14 @@
 .logo-container {
 	height:150px;
-	background-color: #53c1de;
+	/*background-color: #53c1de;*/
 	border-bottom: 2px solid white;
+	background-image: url("../images/grain.png");
+	box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 .logo {
-	background-color: #f2f0c9;
+	/*background-color: #f2f0c9;*/
+	background-image: url("../images/grain.png");
 	width:300px;
 	height:300px;
 	border: 2px solid white;
@@ -15,16 +18,16 @@
 	-webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
 	margin-left: -150px;
+	box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 .logo-container  img {
-    position: absolute;
+	position: absolute;
     left: 50%;
-    width: 130px;
+    width: 102px;
     display: block;
-    height: 140px;
     padding-top: 10px;
-    margin-left: -65px;
+    margin-left: -49px;
 }
 
 .content {
