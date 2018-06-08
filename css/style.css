@@ -51,7 +51,7 @@
     bottom: 175px;
     width: 100%;
     color: #FFF;
-    background-color: rgba(255,255,255, 0.4);
+    background-color: rgba(255,255,255, 0.6);
     z-index: 1400;
 }
 
@@ -59,6 +59,7 @@
     margin: 10px auto 10px auto;
     max-width: 500px;
     display: block;
+
 }
 
 .gallery-container {
@@ -66,28 +67,39 @@
 	margin:25px auto 25px auto;
 }
 
+.gallery-container div {
+	overflow: hidden;
+}
+
+/*.gallery-container img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+.gallery-container img:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}*/
+
 .footer {
-	/*height:300px;*/
 	background-image: url("../images/grain.png");
-	border-top: 2px solid white;
-	box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.2);
+/*	border-top: 2px solid white;
+	box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.2);*/
 }
 
 .footer img {
     width: 102px;
     display: block;
-    margin:0 auto 0 auto;
+    margin:25px auto 0 auto;
     height:135px;
-}
-
-.footer> div {
-	margin:20px 0 15px 0;
 }
 
 .social-media a {
     padding: 5px; 
-	height: 100px;
-    width: 100px;
+	height: 75px;
+    width: 75px;
     display: inline-block;
 }
 
@@ -110,8 +122,33 @@
 }
 
 .copyright {
+	background-image: url("../images/grain.png");
 	display: block;
-	margin:0 auto 0 auto;
+	height:100px;
+	margin:50px auto 25px auto;
+	background-color: #363636;
+}
+
+.copyright a {
+	color:white;
+	text-decoration: none;
+}
+
+.copyright a:hover {
+	color:white;
+	text-decoration: none;
+}
+
+.copyright img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .4s ease-in-out;
+	transition: .4s ease-in-out;
+}
+
+.copyright img:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 @media (min-width: 1200px) { 
@@ -120,13 +157,6 @@
 
 
 @media (max-width: 768px) { 
-	.logo-container {
-		/*border-bottom: 2px solid white;
-		background-image: url("../images/grain.png");
-		box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.2);
-		background-color: #f7f6e8;*/
-	}
-
 	.logo {
 		width: 150px;
 		height:150px;
@@ -141,16 +171,9 @@
 	    margin-left: -29px;
 	}
 
-	.carousel-overlay {
-		margin-top:25px;
-		bottom: 0px;
-	}
-
 	.carousel-overlay img {
-		width: 200px;
+		width: 90%;
 	}
-
-
 }
 
 @media (max-width:  576px) {
