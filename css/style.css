@@ -12,11 +12,11 @@
 	width:300px;
 	height:300px;
 	border: 2px solid white;
-    position: absolute;
+	position: absolute;
 	top: -150px;
 	left: 50%;
 	-webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+	transform: rotate(-45deg);
 	margin-left: -150px;
 	box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.2);
 	z-index: 10;
@@ -115,7 +115,36 @@
 
 
 @media (max-width: 768px) { 
+	.logo-container {
+		border-bottom: 2px solid white;
+		background-image: url("../images/grain.png");
+		box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.2);
+		background-color: #f7f6e8;
+	}
 
+	.logo {
+		display: none;
+	}
+
+	.logo-container  img {
+		    position: relative;
+		    width: 60px;
+		    display: block;
+
+		    left: 0;
+		    padding: 0;
+		    margin: 10px auto 10px auto;
+		    z-index: 15;
+	}
+
+	.carousel-overlay {
+		margin-top:25px;
+		bottom: 0px;
+	}
+
+	.carousel-overlay img {
+		width: 200px;
+	}
 }
 
 @media (max-width:  576px) {
