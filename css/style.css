@@ -112,13 +112,14 @@
 	color:#5d9fb5;
 }
 
-.footer > ul {
-	margin:20px 0 20px 0; 
-	font-size:14px;
+.map {
+	background-image: url("../images/grain.png");
 }
 
-.footer ul li {
-	margin-bottom: 5px;
+.map h5 {
+	margin-top:25px;
+	margin-bottom:25px;
+	line-height: 25px;
 }
 
 .copyright {
