@@ -38,12 +38,12 @@
 	/*z-index: -10;*/
 }
 
-
-
-.main-image {
-	display: block;
+.cl-item {
+	background-size: cover;
+	background-position: center center;
+	height:670px;
 	width: 100%;
-	height: auto;
+	overflow: hidden;
 }
 
 .carousel-overlay {
@@ -55,10 +55,15 @@
     z-index: 1400;
 }
 
-.dream-summer {
+.carousel-overlay img {
     margin: 10px auto 10px auto;
     max-width: 500px;
     display: block;
+}
+
+.gallery-container {
+	max-width: 1200px;
+	margin:25px auto 25px auto;
 }
 
 .footer {
@@ -116,25 +121,24 @@
 
 @media (max-width: 768px) { 
 	.logo-container {
-		border-bottom: 2px solid white;
+		/*border-bottom: 2px solid white;
 		background-image: url("../images/grain.png");
 		box-shadow: -3px 3px 10px rgba(0, 0, 0, 0.2);
-		background-color: #f7f6e8;
+		background-color: #f7f6e8;*/
 	}
 
 	.logo {
-		display: none;
+		width: 150px;
+		height:150px;
+	    margin-left: -86px;
+        top: -89px;
+        width: 175px;
+    	height: 175px;
 	}
 
 	.logo-container  img {
-		    position: relative;
-		    width: 60px;
-		    display: block;
-
-		    left: 0;
-		    padding: 0;
-		    margin: 10px auto 10px auto;
-		    z-index: 15;
+	    width: 60px;
+	    margin-left: -29px;
 	}
 
 	.carousel-overlay {
@@ -145,8 +149,16 @@
 	.carousel-overlay img {
 		width: 200px;
 	}
+
+
 }
 
 @media (max-width:  576px) {
+	.gallery-container {
+		margin:0 auto 0 auto;
+	}
 
+	.gallery-container div img {
+		margin-bottom: 25px;
+	}
 }
