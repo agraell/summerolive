@@ -53,13 +53,13 @@
     color: #FFF;
     background-color: rgba(255,255,255, 0.6);
     z-index: 1400;
+    margin-bottom: -125px;
 }
 
 .carousel-overlay img {
     margin: 10px auto 10px auto;
     max-width: 500px;
     display: block;
-
 }
 
 .gallery-container {
@@ -172,14 +172,24 @@
 	    margin-left: -29px;
 	}
 
+	.carousel-overlay {
+	    margin-bottom: -75px;
+		height:66px;
+	}
+
 	.carousel-overlay img {
-		width: 70%;
+		width: 210px;
 	}
 }
 
 @media (max-width:  576px) {
 	.gallery-container {
 		margin:0 auto 0 auto;
+	}
+
+	.gallery-container div:first-child img {
+		margin-top: 15px;
+		margin-bottom: 15px;
 	}
 
 	.gallery-container div img {
