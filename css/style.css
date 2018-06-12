@@ -172,9 +172,14 @@
 	    margin-left: -29px;
 	}
 
+	.cl-item {
+		height:300px;
+	}
+
 	.carousel-overlay {
-	    margin-bottom: -75px;
+	    margin-bottom: 0px;
 		height:66px;
+		bottom: 0px;
 	}
 
 	.carousel-overlay img {
